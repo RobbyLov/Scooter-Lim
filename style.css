@@ -1,0 +1,89 @@
+/* 1-Background image definition */
+body{
+    background-image: URL(background.jpg);
+    background-size: cover;
+}
+
+/* 2-Logo dimensions*/
+header > img{
+    width: 200px;
+}    
+
+/* 3-Header alignment */
+div > header{
+    text-align: center;
+}
+
+/* 4 - Header Properties */
+header p:nth-child(2){
+    color: rgb(2, 235, 2);
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* 5-Box-shaded*/
+.shaded-box{
+    background-color: rgba(0, 0, 0, 0.55);
+    margin: 1cm 4cm 1cm 4cm;
+    padding: 1cm 3cm 1cm 3cm;
+    border-radius: 15px;
+}
+
+/* 6- Navigation and scooter booking bar */
+nav{
+    text-align: center;
+    background-color: rgb(2, 235, 2);
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+/* 7- Scooter info rows formatting */
+.scooteravailable{
+    width: 600px;
+    color: white;
+    font-family: helvetica;
+}
+
+.scootername{
+    font-size: 18px;
+}
+
+.scooterinfo{
+    margin-top: 0.5cm;
+    margin-bottom: 0.15cm;
+}
+
+.scooterlocation{
+    font-size: 14px;
+}
+
+.scootercharge{
+    font-size: 14px;
+    margin-top: 0.15cm;
+}
+
+#charge1{
+    width: 55%;
+    height:20px;
+    background-color: orange;
+    border-radius: 5px;
+    margin-bottom: 0.75cm;
+}
+
+#charge2{
+    width: 100%;
+    height:20px;
+    background-color: rgb(8, 230, 8);
+    border-radius: 5px;
+    margin-bottom: 0.75cm;
+}
+
+#charge3{
+    width: 10%;
+    height:20px;
+    background-color: red;
+    border-radius: 5px;
+    margin-bottom: 0.75cm;
+}
